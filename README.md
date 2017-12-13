@@ -3,6 +3,7 @@
 ## UniteJS Operations
 
 * unite configure --profile=PolymerJavaScript/PolymerTypeScript
+* unite package --packageName=lodash
 * unite package --packageName=moment
 
 ## Build Operations
