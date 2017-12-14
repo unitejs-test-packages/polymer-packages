@@ -14,7 +14,7 @@ node unitejs/unitejs-cli/bin/unite package --packageName=lodash --outputDirector
 node unitejs/unitejs-cli/bin/unite package --packageName=moment --outputDirectory=./apps/polymer-typescript-commonjs
 
 node unitejs/unitejs-cli/bin/unite configure --packageName=polymer-typescript-systemjs --title="Polymer TypeScript SystemJS" --profile=PolymerTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --outputDirectory=./apps/polymer-typescript-systemjs
-mkdir -p ./apps/angular-typescript-systemjs/www/test/e2e/src/examples/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/examples/*.ts $_
-mkdir -p ./apps/angular-typescript-systemjs/www/test/e2e/src/helpers/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/helpers-polymer/*.ts $_
+mkdir -p ./apps/polymer-typescript-systemjs/www/test/e2e/src/examples/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/examples/*.ts $_
+mkdir -p ./apps/polymer-typescript-systemjs/www/test/e2e/src/helpers/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/helpers-polymer/*.ts $_
 node unitejs/unitejs-cli/bin/unite package --packageName=lodash --outputDirectory=./apps/polymer-typescript-systemjs
 node unitejs/unitejs-cli/bin/unite package --packageName=moment --outputDirectory=./apps/polymer-typescript-systemjs
