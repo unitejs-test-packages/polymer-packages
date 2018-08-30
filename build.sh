@@ -36,7 +36,7 @@ for f in */; do
         cd "$f/www"
 
         echo "$f - npm install"
-        yarn >> $BUILD_OUTPUT 2>&1
+        npm >> $BUILD_OUTPUT 2>&1
         echo "$f - gulp build"
         gulp build >> $BUILD_OUTPUT 2>&1
         echo "$f - gulp unit"
